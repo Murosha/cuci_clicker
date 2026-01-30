@@ -16,20 +16,35 @@ body {
 #btm {
     background-color: rgb(247, 212, 14);
     border-radius: 1rem;
+    position: relative;
+    left: -5rem;
+    top: 8rem;
 }
 #btj {
      background-color: rgb(184, 218, 65);
     border-radius: 1rem;
+    position: relative;
+    left: -10rem;
+    top: 10rem;
 }
 #bth {
     background-color: rgb(250, 170, 66);
     border-radius: 1rem;
+    position: relative;
+    left: -15rem;
+    top: 12rem;
 }
 #btl {
      background-color: rgb(229, 66, 235);
     border-radius: 1rem;
+    position: relative;
+    left: -20rem;
+    top: 14rem;
 }
 #btr {
      background-color: rgb(243, 73, 73);
     border-radius: 1rem;
+    position: relative;
+    left: -25rem;
+    top: 16rem;
 }
