@@ -6,10 +6,10 @@ body {
     text-align: center;
 }
 #btn {
-    margin-left: 48%;
+    margin-left: 40%;
     width: 8rem;
     height: 8rem;
-    border-radius: 45%;
+    border-radius: 50%;
     background: linear-gradient(rgb(255, 219, 61), rgb(248, 173, 34));
     margin-bottom: 5rem;
 }
