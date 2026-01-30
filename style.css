@@ -37,5 +37,5 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
-    align-items: baseline;
+    align-items: center;
 }
