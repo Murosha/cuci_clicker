@@ -16,27 +16,43 @@ body {
 #btm {
     background-color: rgb(247, 212, 14);
     border-radius: 1rem;
+    display: inline-block;
 }
 #btj {
      background-color: rgb(184, 218, 65);
     border-radius: 1rem;
+    display: none;
 }
 #bth {
     background-color: rgb(250, 170, 66);
     border-radius: 1rem;
+     display: none;
 }
 #btl {
      background-color: rgb(229, 66, 235);
     border-radius: 1rem;
+     display: none;
 }
 #btr {
      background-color: rgb(243, 73, 73);
     border-radius: 1rem;
+     display: none;
 }
 .upgrades {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-    align-items: center;
-    width: 100%; 
+position: fixed;
+}
+#btg {
+    background-color: rgb(64, 241, 144);
+    border-radius: 1rem;
+     display: none;
+}
+#btp {
+    background-color: rgb(153, 18, 231);
+    border-radius: 1rem;
+     display: none;
+}
+#btu {
+    background-color: rgb(218, 26, 90);
+    border-radius: 1rem;
+     display: none;
 }
