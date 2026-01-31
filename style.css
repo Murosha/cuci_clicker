@@ -6,9 +6,9 @@ body {
     text-align: center;
 }
 #btn {
-    margin-left: 37%;
-    width: 8rem;
-    height: 8rem;
+    margin-left: 40%;
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
     background: linear-gradient(rgb(255, 219, 61), rgb(248, 173, 34));
     margin-bottom: 5rem;
