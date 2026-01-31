@@ -40,7 +40,8 @@ body {
 }
 .upgrades {
 position: fixed;
-top: 10px;
+    top: 10px;
+    left: 10px;
 }
 #btg {
     background-color: rgb(64, 241, 144);
