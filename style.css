@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 #btn {
-    margin-left: 40%;
+    margin-left: 37%;
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
@@ -40,6 +40,7 @@ body {
 }
 .upgrades {
 position: fixed;
+top: 10px;
 }
 #btg {
     background-color: rgb(64, 241, 144);
