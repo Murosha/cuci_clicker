@@ -58,3 +58,6 @@ position: fixed;
     border-radius: 1rem;
      display: none;
 }
+#income {
+    text-align: right;
+}
