@@ -3,7 +3,7 @@ let count = 0
 let clickPlus = 1
 let incomePerSecond = 0
 
-// DOM змінні
+// DOM 
 const countText = document.getElementById('count')
 const button = document.getElementById('btn')
 
