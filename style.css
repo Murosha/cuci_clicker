@@ -58,6 +58,14 @@ position: fixed;
     border-radius: 1rem;
      display: none;
 }
+#auto1 {
+    background-color: rgb(236, 152, 42);
+    border-radius: 1rem;
+    position: fixed;
+top: 10px;
+right: 10px;
+}
+
 <!--doxid-->
 #income {
     text-align: right;
