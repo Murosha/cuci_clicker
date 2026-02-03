@@ -6,9 +6,9 @@ body {
     text-align: center;
 }
 #btn {
-    margin-left: 30%;
-    width: 11rem;
-    height: 11rem;
+    margin-left: 37%;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     background: linear-gradient(rgb(255, 219, 61), rgb(248, 173, 34));
     margin-bottom: 5rem;
@@ -40,8 +40,7 @@ body {
 }
 .upgrades {
 position: fixed;
-    top: 10px;
-    left: 10px;
+top: 10px;
 }
 #btg {
     background-color: rgb(64, 241, 144);
@@ -66,7 +65,6 @@ top: 10px;
 right: 10px;
 }
 
-<!--doxid-->
 #income {
     text-align: right;
 }
