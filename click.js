@@ -70,7 +70,7 @@ buttog.onclick = () => bgg(40000, 20)
 buttop.onclick = () => bgg(100000, 50)
 buttou.onclick = () => bgg(500000, 100)
 
-// ===== АВТОДОХІД =====
+// авто дохід
 auto.addEventListener('click', () => {
     if (count >= 200) {
         count -= 200
@@ -83,12 +83,12 @@ auto.addEventListener('click', () => {
     }
 })
 
-// ===== ОНОВЛЕННЯ ТЕКСТУ =====
+// оновлення тексту
 function updateIncome() {
     incomeText.innerText = `+${incomePerSecond} / сек`
 }
 
-// ===== КНОПКИ =====
+// кнопочки
 function updateButtons() {
     const buttons = [buttom, buttoj, buttoh, buttol, buttor, buttog, buttop, buttou]
     buttons.forEach(b => b.style.display = 'none')
@@ -103,7 +103,7 @@ function updateButtons() {
     if (clickPlus === 50) buttou.style.display = 'inline-block'
 }
 
-// ===== АВТОПРИБУТОК =====
+// авто прибуток
 setInterval(() => {
     count += incomePerSecond
     countText.innerText = count
