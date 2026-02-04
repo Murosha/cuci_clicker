@@ -7,6 +7,8 @@ let autoClickBun = 0
 // DOM 
 const countText = document.getElementById('count')
 const button = document.getElementById('btn')
+const clickAudio = document.getElementById('audio')
+const clickAudioUpdate = document.getElementById('audio5')
 
 const buttom = document.getElementById('btm')
 const buttoj = document.getElementById('btj')
@@ -43,14 +45,23 @@ function saveGame() {
 
 // клацалка
 button.addEventListener('click', () => {
+    clickAudio.currentTime = 0
+    clickAudio.play()
     count += clickPlus
     countText.innerText = count
     saveGame()
+    btn.onclick = () => {
+    if(autoClickBun >= 8) {
+        return
+    }
+}
 })
 
 // апгрейд кліку
 function bgg(bye, pri) {
     if (count >= bye) {
+        clickAudioUpdate.currentTime = 0
+        clickAudioUpdate.play()
     count -= bye
     clickPlus = pri
     updateButtons()
@@ -74,6 +85,8 @@ buttou.onclick = () => bgg(500000, 100)
 // авто дохід
 auto.addEventListener('click', () => {
     if (count >= 200) {
+        clickAudioUpdate.currentTime = 0
+        clickAudioUpdate.play()
         count -= 200
         incomePerSecond += 1
         countText.innerText = count
@@ -107,15 +120,12 @@ setInterval(() => {
     autoClickBun = 0
 }, 1000)
 
-btn.onclick = () => {
-    if(autoClickBun >= 5) {
-        return
-    }
-}
+
 // авто прибуток
 setInterval(() => {
     count += incomePerSecond
     countText.innerText = count
     saveGame()
 }, 1000)
+
 
