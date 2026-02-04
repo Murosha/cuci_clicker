@@ -2,6 +2,7 @@
 let count = 0
 let clickPlus = 1
 let incomePerSecond = 0
+let autoClickBun = 0
 
 // DOM 
 const countText = document.getElementById('count')
@@ -102,7 +103,15 @@ function updateButtons() {
     if (clickPlus === 20) buttop.style.display = 'inline-block'
     if (clickPlus === 50) buttou.style.display = 'inline-block'
 }
+setInterval(() => {
+    autoClickBun = 0
+}, 1000)
 
+btn.onclick = () => {
+    if(autoClickBun >= 5) {
+        return
+    }
+}
 // авто прибуток
 setInterval(() => {
     count += incomePerSecond
