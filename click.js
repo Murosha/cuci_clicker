@@ -45,16 +45,12 @@ function saveGame() {
 
 // клацалка
 button.addEventListener('click', () => {
+    if(autoClickBun >= 8) { return }
     clickAudio.currentTime = 0
     clickAudio.play()
     count += clickPlus
     countText.innerText = count
     saveGame()
-    btn.onclick = () => {
-    if(autoClickBun >= 8) {
-        return
-    }
-}
 })
 
 // апгрейд кліку
